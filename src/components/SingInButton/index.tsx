@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa'
 import { FiX } from 'react-icons/fi'
 
 export function SingInButton() {
-    const isUserLoggerIn = true;
+    const isUserLoggerIn = false;
 
 
     return isUserLoggerIn ? (

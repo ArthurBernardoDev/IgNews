@@ -5,8 +5,8 @@ import '../styles/global.scss'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Component {...pageProps} />
       <Header />
+      <Component {...pageProps} />
     </>
   )
 }
