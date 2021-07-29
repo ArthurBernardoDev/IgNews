@@ -32,8 +32,8 @@ export default function Home({ product }: HomeProps) {
         <Image
           id="imagem"
           src="/images/avatar.svg"
-          width={600}
-          height={500}
+          width={1000}
+          height={900}
         />
       </main>
     </>
