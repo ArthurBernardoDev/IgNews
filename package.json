@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "faunadb": "^4.3.0",
+    "faunadb": "^4.4.1",
     "next": "11.0.1",
     "next-auth": "^3.27.3",
     "react": "17.0.2",
@@ -19,11 +19,17 @@
     "stripe": "^8.164.0"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.2.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
     "@types/next-auth": "^3.15.0",
     "@types/node": "^16.3.3",
     "@types/react": "^17.0.14",
+    "babel-jest": "^27.1.0",
     "eslint": "7.31.0",
     "eslint-config-next": "11.0.1",
+    "jest": "^27.1.0",
+    "jest-dom": "^4.0.0",
     "typescript": "^4.3.5"
   }
 }
